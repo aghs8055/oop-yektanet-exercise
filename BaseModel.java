@@ -30,6 +30,6 @@ public class BaseModel {
         return this.views;
     }
 
-    public void describeMe(){
+    public void describeMe() {
     }
 }
