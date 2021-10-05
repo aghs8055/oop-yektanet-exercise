@@ -3,6 +3,11 @@ public class BaseModel {
     private int clicks;
     private int views;
 
+    public BaseModel() {
+        this.clicks = 0;
+        this.views = 0;
+    }
+
     public BaseModel(int id) {
         this.id = id;
         this.clicks = 0;
