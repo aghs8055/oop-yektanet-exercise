@@ -1,4 +1,4 @@
-public abstract class BaseModel {
+public class BaseModel {
     private int id;
     private int clicks;
     private int views;
@@ -25,5 +25,6 @@ public abstract class BaseModel {
         return this.views;
     }
 
-    public abstract void describeMe();
+    public void describeMe(){
+    }
 }
