@@ -5,8 +5,8 @@ public class Main {
         BaseModel baseModel = new BaseModel();
         Advertiser advertiser1 = new Advertiser(1, "name1");
         Advertiser advertiser2 = new Advertiser(2, "name2");
-        Ad ad1 = new Ad(1, "title", "img-url1", "link1", advertiser1);
-        Ad ad2 = new Ad(2, "title", "img-url2", "link2", advertiser2);
+        Ad ad1 = new Ad(1, "title1", "img-url1", "link1", advertiser1);
+        Ad ad2 = new Ad(2, "title2", "img-url2", "link2", advertiser2);
         baseModel.describeMe();
         ad2.describeMe();
         advertiser1.describeMe();
@@ -18,12 +18,12 @@ public class Main {
         ad1.incClicks();
         ad1.incClicks();
         ad2.incClicks();
-        advertiser2.getName();
+        System.out.println(advertiser2.getName());
         advertiser2.setName("new name");
-        advertiser2.getName();
-        ad1.getClicks();
-        advertiser2.getClicks();
-        Advertiser.getTotalClick();
+        System.out.println(advertiser2.getName());
+        System.out.println(ad1.getClicks());
+        System.out.println(advertiser2.getClicks());
+        System.out.println(Advertiser.getTotalClick());
         Advertiser.help();
     }
 }

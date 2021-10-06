@@ -40,6 +40,16 @@ public class Ad extends BaseModel {
         this.advertiser = advertiser;
     }
 
+    public void incClicks() {
+        super.incClicks();
+        this.advertiser.incClicks();
+    }
+
+    public void incViews() {
+        super.incViews();
+        this.advertiser.incViews();
+    }
+
     public void describeMe() {
         System.out.println("This class contains fields and methods related to advertising.");
     }

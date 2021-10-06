@@ -32,6 +32,6 @@ public class Advertiser extends BaseModel {
         System.out.println("id: This unique field keep the id of advertiser in a int variable.\n" +
                 "name: This field is name of advertiser and sort in String.\n" +
                 "clicks: This field save the count of clicks of advertiser.\n" +
-                "viwes: This field keep the count of views of advertiser.");
+                "views: This field keep the count of views of advertiser.");
     }
 }

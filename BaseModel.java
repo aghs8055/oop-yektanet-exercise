@@ -31,5 +31,6 @@ public class BaseModel {
     }
 
     public void describeMe() {
+        System.out.println("This class is the base model for Ad and Advertiser classes.");
     }
 }
